@@ -1,6 +1,6 @@
 {
   "name": "@airship/with-unstated",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HOC for Unstated state management",
   "main": "lib/with-unstated.js",
   "types": "lib/with-unstated.d.ts",
