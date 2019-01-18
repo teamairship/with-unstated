@@ -2,13 +2,19 @@
   "name": "@airship/with-unstated",
   "version": "1.0.0",
   "description": "HOC for Unstated state management",
-  "main": "index.js",
+  "main": "lib/with-unstated.js",
+  "types": "lib/with-unstated.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teamairship/with-unstated.git"
   },
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf lib",
+    "build": "rollup -c && cp src/with-unstated.d.ts lib/with-unstated.d.ts",
+    "prepublish": "yarn clean && yarn build"
   },
   "keywords": [
     "react",
@@ -20,7 +26,24 @@
     "url": "https://github.com/teamairship/with-unstated/issues"
   },
   "dependencies": {
-    "hoist-non-react-statics": "^3.2.1",
+    "hoist-non-react-statics": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.36",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "parcel-bundler": "^1.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
     "unstated": "^2.0.0"
   },
   "homepage": "https://github.com/teamairship/with-unstated#readme"
