@@ -1,6 +1,6 @@
 # withUnstated
 
-Higher Order Component for Unstated state management
+Higher Order Component for [Unstated](https://github.com/jamiebuilds/unstated) state management
 
 ## Install
 
