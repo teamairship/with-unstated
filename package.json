@@ -1,0 +1,26 @@
+{
+  "name": "@airship/with-unstated",
+  "version": "1.0.0",
+  "description": "HOC for Unstated state management",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamairship/with-unstated.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "unstated"
+  ],
+  "author": "Alex Hinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamairship/with-unstated/issues"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^3.2.1",
+    "unstated": "^2.0.0"
+  }
+}
