@@ -2,6 +2,18 @@
 
 Higher Order Component for Unstated state management
 
+## Install
+
+```bash
+yarn add @airship/with-unstated
+```
+
+or
+
+```bash
+npm install @airship/with-unstated
+```
+
 ## Usage
 
 You can use this HoC to wrap a component so that you can have access to
