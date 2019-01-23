@@ -1,5 +1,7 @@
 # withUnstated
 
+[![npm package](https://img.shields.io/npm/v/@airship/with-unstated.svg?style=flat-square)](https://www.npmjs.org/package/@airship/with-unstated)
+
 Higher Order Component for [Unstated](https://github.com/jamiebuilds/unstated) state management
 
 ## Install
